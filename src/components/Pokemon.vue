@@ -12,7 +12,7 @@ import { pokemonService } from '../services/PokemonService.js';
 import Pop from '../utils/Pop.js';
 
 export default {
-    props: { pokemon: { type: Pokemon, require: true } },
+    props: { pokemon: { type: Pokemon, required: true } },
     setup() {
         return {
             async setActivePokemon(url) {
